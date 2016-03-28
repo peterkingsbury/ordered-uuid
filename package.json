@@ -1,1 +1,14 @@
-
+{
+  "name": "ordered-uuid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Kingsbury",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^2.0.1"
+  }
+}
