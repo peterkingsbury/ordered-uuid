@@ -7,8 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Peter Kingsbury",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "uuid": "^2.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/peterkingsbury/ordered-uuid/issues",
+    "email": "peter.kingsbury@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterkingsbury/ordered-uuid"
   }
 }
