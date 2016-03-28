@@ -27,6 +27,7 @@ Convenience function which intakes a hex-encoded binary Buffer object containing
 ### Examples
 
     var OrderedUUID = require('ordered-uuid');
+    
     var orderedUuid = OrderedUUID.generate();
     // '4352e80c5117dff996296b7531fbc4c0'
     
