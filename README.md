@@ -43,4 +43,4 @@ For all questions and issues, please open an Issue in GitHub.
 
 ## License
 
-Licensed liberally under MIT; see license.txt for complete license text.
+Licensed liberally under MIT; see LICENSE for complete license text.
