@@ -29,8 +29,10 @@ Convenience function which intakes a hex-encoded binary Buffer object containing
     var OrderedUUID = require('ordered-uuid');
     var orderedUuid = OrderedUUID.generate();
     // '4352e80c5117dff996296b7531fbc4c0'
+    
     var binaryUuid = OrderedUUID.toBinary16(orderedUuid);
     // <Buffer 43 6c e0 49 2f ac d5 5f b2 9f f3 a0 cd f0 27 72>
+    
     var decodedUuid = OrderedUUID.fromBinary16(binaryUuid);
     // '4352e80c5117dff996296b7531fbc4c0'
 
