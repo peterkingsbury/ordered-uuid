@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "coverage": "istanbul cover --report html node_modules/.bin/_mocha -- -R spec",
+    "test": "mocha tests/"
   },
   "author": "Peter Kingsbury",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "uuid": "^2.0.1"
+    "uuid": "^3.0.1"
   },
   "bugs": {
     "url": "https://github.com/peterkingsbury/ordered-uuid/issues",
@@ -18,5 +19,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/peterkingsbury/ordered-uuid"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0"
   }
 }
