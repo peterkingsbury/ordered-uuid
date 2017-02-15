@@ -4,7 +4,7 @@ var uuid = require('uuid');
 
 module.exports = {
   generate: function() {
-    var unordered = uuid.v4();
+    var unordered = uuid.v1();
     return unordered.substr(14, 4) + unordered.substr(9, 4) + unordered.substr(0, 8) + unordered.substr(19, 4) + unordered.substr(24, unordered.length);
   },
 
