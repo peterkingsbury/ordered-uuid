@@ -8,7 +8,7 @@
     "test": "mocha test"
   },
   "author": "Peter Kingsbury",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "dependencies": {
     "uuid": "^3.0.1"
   },
